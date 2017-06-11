@@ -1,0 +1,15 @@
+Package: com.fiiiiilth.redditopener
+Name: RedditOpener
+Depends: ws.hbang.libopener (>= 3.1.2)
+Architecture: iphoneos-arm
+Description: Open Reddit links in the official Reddit app.
+Maintainer: fiiiiilth
+Author: fiiiiilth
+Section: Tweaks
+Version: 0.0.1-7+debug
+Depiction: https://fiiiiilth.github.io/repo/depictions/?p=com.fiiiiilth.redditopener
+Installed-Size: 132
+Filename: ./debs/com.fiiiiilth.redditopener_0.0.1-7+debug_iphoneos-arm.deb
+MD5sum: 15369766ff1033f150e2e247e959a5a8
+Size: 4006
+
