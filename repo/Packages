@@ -5,7 +5,7 @@ Architecture: iphoneos-arm
 Description: Open Reddit links in the official Reddit app.
 Maintainer: fiiiiilth
 Author: fiiiiilth
-Section: Tweaks
+Section: Addons
 Version: 0.0.1-7+debug
 Depiction: https://fiiiiilth.github.io/repo/depic/com.fiiiiilth.redditopener
 Installed-Size: 132
