@@ -57,8 +57,7 @@ body>p,h2,p[class="footer"] {
 }
 
 h2,header .date {
-  text-transform:uppercase;
-  margin-bottom:5px
+  margin-bottom:5px;
 }
 
 h2 a,h2 header .date,header h2 .date {
@@ -122,9 +121,10 @@ ul:after,ul:before {
 }
 
 ul li {
-  border-bottom:1px solid #c8c7cc;
+  /*border-bottom:1px solid #c8c7cc;*/
   margin-left:15px;
   padding:13px 15px 13px 0
+  
 }
 
 ul li:last-child {

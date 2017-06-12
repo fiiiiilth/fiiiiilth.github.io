@@ -1,3 +1,17 @@
+Package: com.fiiiiilth.beamopener
+Name: BeamOpener
+Depends: ws.hbang.libopener (>= 3.1.2)
+Architecture: iphoneos-arm
+Description: This is a handler for Opener that opens Reddit links in the Beam app.
+Maintainer: fiiiiilth
+Author: fiiiiilth
+Section: Addons
+Version: 0.0.1-1+debug
+Installed-Size: 132
+Filename: ./debs/com.fiiiiilth.beamopener_0.0.1-1+debug_iphoneos-arm.deb
+MD5sum: 3960c4a23a7f4517b75a59dc1cf85631
+Size: 4002
+
 Package: com.fiiiiilth.narwhalopener
 Name: NarwhalOpener
 Depends: ws.hbang.libopener (>= 3.1.2)
