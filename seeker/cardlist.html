@@ -1,0 +1,801 @@
+<!DOCTYPE html!>
+<html>
+  <head>
+    <title>Seeker_purple cards</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        font-size: 80%;
+      }
+      th {
+        text-align: left;
+        background-color: #ccc;
+        cursor: default;
+      }
+      td, th {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding: 5px;
+      }
+    </style>
+    <script src="https://kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+  </head>
+  <body>
+    <h1>Seeker_purple cards</h1>
+    <table class="sortable">
+      <tr>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Upgraded image</th>
+        <th>Rarity</th>
+        <th>Type</th>
+        <th>Cost</th>
+        <th>Description</th>
+      </tr>
+      
+      <tr>
+        <td>Anomaly</td>
+        <td><img src="card-images/Anomaly.png"></td>
+        <td><img src="card-images/AnomalyPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Power</td>
+        <td>0</td>
+        <td>Whenever you apply Vulnerable or Weak to an enemy, apply 1(2) additional stack(s).</td>
+      </tr>
+      
+      <tr>
+        <td>Arcane Armor</td>
+        <td><img src="card-images/ArcaneArmor.png"></td>
+        <td><img src="card-images/ArcaneArmorPlus.png"></td>
+        <td>Common</td>
+        <td>Skill</td>
+        <td>2</td>
+        <td>Gain 8(14) Block. Every time you draw this card, increase its Block by 2 for this combat.</td>
+      </tr>
+      
+      <tr>
+        <td>Archives</td>
+        <td><img src="card-images/Archives.png"></td>
+        <td><img src="card-images/ArchivesPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>0</td>
+        <td>Gain [R] for every 10(7) cards in your draw pile.</td>
+      </tr>
+      
+      <tr>
+        <td>Astral Haze</td>
+        <td><img src="card-images/AstralHaze.png"></td>
+        <td><img src="card-images/AstralHazePlus.png"></td>
+        <td>Basic</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>Ethereal. The first time each enemy attacks you this turn, apply 2(3) Vulnerable and 2(3) Weak to it.</td>
+      </tr>
+      
+      <tr>
+        <td>Brainstorm</td>
+        <td><img src="card-images/Brainstorm.png"></td>
+        <td><img src="card-images/BrainstormPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>0</td>
+        <td>Recycle this card, your discard pile and a Dazed. Next turn, draw 1(2) more card(s).</td>
+      </tr>
+      
+      <tr>
+        <td>Brilliance</td>
+        <td><img src="card-images/Brilliance.png"></td>
+        <td><img src="card-images/BrilliancePlus.png"></td>
+        <td>Rare</td>
+        <td>Power</td>
+        <td>2</td>
+        <td>Recycle 3 Dazed. Whenever you draw a Dazed, draw 1(2) card(s).</td>
+      </tr>
+      
+      <tr>
+        <td>Channel</td>
+        <td><img src="card-images/Channel.png"></td>
+        <td><img src="card-images/ChannelPlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Deal 7(10) damage. Top-Cycle a card. If it is Ethereal, deal 7(10) more damage.</td>
+      </tr>
+      
+      <tr>
+        <td>Chaos Form</td>
+        <td><img src="card-images/ChaosForm.png"></td>
+        <td><img src="card-images/ChaosFormPlus.png"></td>
+        <td>Rare</td>
+        <td>Power</td>
+        <td>3</td>
+        <td>At the start of your turn, Recycle a random Ethereal card. (It costs 0 until played.)</td>
+      </tr>
+      
+      <tr>
+        <td>Coalescence</td>
+        <td><img src="card-images/Coalescence.png"></td>
+        <td><img src="card-images/CoalescencePlus.png"></td>
+        <td>Uncommon</td>
+        <td>Power</td>
+        <td>2</td>
+        <td>At the end of turn, gain 2(3) Block for each stack of Frail, Weak, or Vulnerable you have.</td>
+      </tr>
+      
+      <tr>
+        <td>Comet</td>
+        <td><img src="card-images/Comet.png"></td>
+        <td><img src="card-images/CometPlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Deal 2(3) damage for each other card in your hand.</td>
+      </tr>
+      
+      <tr>
+        <td>Convergence</td>
+        <td><img src="card-images/Convergence.png"></td>
+        <td><img src="card-images/ConvergencePlus.png"></td>
+        <td>Common</td>
+        <td>Skill</td>
+        <td></td>
+        <td>Unplayable. When you draw this card, (draw another card and) upgrade a card in your hand.</td>
+      </tr>
+      
+      <tr>
+        <td>Corona</td>
+        <td><img src="card-images/Corona.png"></td>
+        <td><img src="card-images/CoronaPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>2(1)</td>
+        <td>Next turn, draw 1 card. Whenever you draw this card, increase that amount by 1 this combat.</td>
+      </tr>
+      
+      <tr>
+        <td>Creativity</td>
+        <td><img src="card-images/Creativity.png"></td>
+        <td><img src="card-images/CreativityPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Power</td>
+        <td>1(0)</td>
+        <td>At the start of your turn, Recycle a Dazed, then draw a card.</td>
+      </tr>
+      
+      <tr>
+        <td>Dark Matter</td>
+        <td><img src="card-images/DarkMatter.png"></td>
+        <td><img src="card-images/DarkMatterPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Deal 3(5) damage for each Exhausted Ethereal card this combat.</td>
+      </tr>
+      
+      <tr>
+        <td>Dazed</td>
+        <td><img src="card-images/Dazed.png"></td>
+        <td><img src=""></td>
+        <td>Special</td>
+        <td>Attack</td>
+        <td></td>
+        <td>Ethereal. Gain 0 Block. Deal 0 damage.</td>
+      </tr>
+      
+      <tr>
+        <td>Defend</td>
+        <td><img src="card-images/Defend.png"></td>
+        <td><img src="card-images/DefendPlus.png"></td>
+        <td>Basic</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>Gain 5(8) Block.</td>
+      </tr>
+      
+      <tr>
+        <td>Dimension Door</td>
+        <td><img src="card-images/DimensionDoor.png"></td>
+        <td><img src="card-images/DimensionDoorPlus.png"></td>
+        <td>Rare</td>
+        <td>Skill</td>
+        <td>2</td>
+        <td>Ethereal. Gain 1 Intangible. Exhaust. (not Exhaust.)</td>
+      </tr>
+      
+      <tr>
+        <td>Disperse</td>
+        <td><img src="card-images/Disperse.png"></td>
+        <td><img src="card-images/DispersePlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>2</td>
+        <td>Gain 12(16) Block. Gain 1 Artifact.</td>
+      </tr>
+      
+      <tr>
+        <td>Disruption Field</td>
+        <td><img src="card-images/DisruptionField.png"></td>
+        <td><img src="card-images/DisruptionFieldPlus.png"></td>
+        <td>Common</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>Gain 9(12) Block. Recycle a Dazed.</td>
+      </tr>
+      
+      <tr>
+        <td>Echo</td>
+        <td><img src="card-images/Echo.png"></td>
+        <td><img src="card-images/EchoPlus.png"></td>
+        <td>Rare</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>This turn, your next (2) Ethereal card(s) is (are) played twice.</td>
+      </tr>
+      
+      <tr>
+        <td>Eclipse</td>
+        <td><img src="card-images/Eclipse.png"></td>
+        <td><img src="card-images/EclipsePlus.png"></td>
+        <td>Rare</td>
+        <td>Skill</td>
+        <td>1(0)</td>
+        <td>Top-Cycle an Exhausted Ethereal card. Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Enigma</td>
+        <td><img src="card-images/Enigma.png"></td>
+        <td><img src="card-images/EnigmaPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Power</td>
+        <td>1</td>
+        <td>Dazed can now be played to gain 1(2) Block and deal 1(2) damage to ALL enemies.</td>
+      </tr>
+      
+      <tr>
+        <td>Entropy</td>
+        <td><img src="card-images/Entropy.png"></td>
+        <td><img src="card-images/EntropyPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>Ethereal. Enemy loses 2(3) Strength this turn, increasing by 1 each time you draw this card this combat.</td>
+      </tr>
+      
+      <tr>
+        <td>Equinox</td>
+        <td><img src="card-images/Equinox.png"></td>
+        <td><img src="card-images/EquinoxPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Can only be played if your discard pile is empty or your draw pile is empty. Deal 20(30) damage.</td>
+      </tr>
+      
+      <tr>
+        <td>Essence Dart</td>
+        <td><img src="card-images/EssenceDart.png"></td>
+        <td><img src="card-images/EssenceDartPlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>0</td>
+        <td>Can only be played if you have an Ethereal card in your hand. Deal 11(15) damage.</td>
+      </tr>
+      
+      <tr>
+        <td>Ether Blast</td>
+        <td><img src="card-images/EtherBlast.png"></td>
+        <td><img src="card-images/EtherBlastPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>2</td>
+        <td>Ethereal. Deal 6(10) damage, plus 2(3) damage for ALL of your Ethereal cards.</td>
+      </tr>
+      
+      <tr>
+        <td>Eureka!</td>
+        <td><img src="card-images/Eureka!.png"></td>
+        <td><img src="card-images/Eureka!Plus.png"></td>
+        <td>Rare</td>
+        <td>Skill</td>
+        <td>0</td>
+        <td>Recycle 2 Dazed. Draw 2(3) cards. Gain [R] [R] ([R]). Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Event Horizon</td>
+        <td><img src="card-images/EventHorizon.png"></td>
+        <td><img src="card-images/EventHorizonPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Power</td>
+        <td>1(0)</td>
+        <td>Each enemy loses HP equal to the amount of Weak and Vulnerable it has at the start of its turn.</td>
+      </tr>
+      
+      <tr>
+        <td>Feedback</td>
+        <td><img src="card-images/Feedback.png"></td>
+        <td><img src="card-images/FeedbackPlus.png"></td>
+        <td>Rare</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Remove all Weak and Vulnerable from an Enemy. It loses 6(9) HP per stack removed.</td>
+      </tr>
+      
+      <tr>
+        <td>Flare</td>
+        <td><img src="card-images/Flare.png"></td>
+        <td><img src="card-images/FlarePlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>0</td>
+        <td>Deal 3(6) damage. Apply 1(2) Vulnerable.</td>
+      </tr>
+      
+      <tr>
+        <td>Flicker</td>
+        <td><img src="card-images/Flicker.png"></td>
+        <td><img src="card-images/FlickerPlus.png"></td>
+        <td>Common</td>
+        <td>Skill</td>
+        <td>0</td>
+        <td>Reverse the effects of Frail, Weak, and Vulnerable on you for 1(2) turn(s).</td>
+      </tr>
+      
+      <tr>
+        <td>Flow</td>
+        <td><img src="card-images/Flow.png"></td>
+        <td><img src="card-images/FlowPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>1(0)</td>
+        <td>Ethereal. Retain all excess Energy at the end of turn. Draw 1 extra card next turn.</td>
+      </tr>
+      
+      <tr>
+        <td>Flux</td>
+        <td><img src="card-images/Flux.png"></td>
+        <td><img src="card-images/FluxPlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Ethereal. Gain 6(8) Block. Deal 6(8) damage.</td>
+      </tr>
+      
+      <tr>
+        <td>Force Ripple</td>
+        <td><img src="card-images/ForceRipple.png"></td>
+        <td><img src="card-images/ForceRipplePlus.png"></td>
+        <td>Rare</td>
+        <td>Attack</td>
+        <td>X</td>
+        <td>Deal 12(16) damage X times. Gain X Weak, X Frail, and X Vulnerable.</td>
+      </tr>
+      
+      <tr>
+        <td>Genesis</td>
+        <td><img src="card-images/Genesis.png"></td>
+        <td><img src="card-images/GenesisPlus.png"></td>
+        <td>Common</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>Ethereal. Gain 6(9) Block. Draw 2 cards.</td>
+      </tr>
+      
+      <tr>
+        <td>Gravity Well</td>
+        <td><img src="card-images/GravityWell.png"></td>
+        <td><img src="card-images/GravityWellPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>If the enemy is Weak, it loses 3(4) Strength. Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Hypothesis</td>
+        <td><img src="card-images/Hypothesis.png"></td>
+        <td><img src="card-images/HypothesisPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>0</td>
+        <td>Draw a card. If it is Ethereal, add a Dazed to your hand and draw another (1(2) more) card(s).</td>
+      </tr>
+      
+      <tr>
+        <td>Illuminate</td>
+        <td><img src="card-images/Illuminate.png"></td>
+        <td><img src="card-images/IlluminatePlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>0</td>
+        <td>Create 1(2) copy (copies) of an Ethereal card in your hand. Top-Cycle that copy (those copies).</td>
+      </tr>
+      
+      <tr>
+        <td>Implosion</td>
+        <td><img src="card-images/Implosion.png"></td>
+        <td><img src="card-images/ImplosionPlus.png"></td>
+        <td>Rare</td>
+        <td>Attack</td>
+        <td>3</td>
+        <td>Deal 38(48) damage. Top-Cycle 1 card from your hand.</td>
+      </tr>
+      
+      <tr>
+        <td>Irradiate</td>
+        <td><img src="card-images/Irradiate.png"></td>
+        <td><img src="card-images/IrradiatePlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Deal 1(2) damage and apply 1(2) Weak and 1(2) Vulnerable to ALL enemies.</td>
+      </tr>
+      
+      <tr>
+        <td>Magic Missile</td>
+        <td><img src="card-images/MagicMissile.png"></td>
+        <td><img src="card-images/MagicMissilePlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Ethereal. Deal 3 damage 4(5) times. Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Magnetize</td>
+        <td><img src="card-images/Magnetize.png"></td>
+        <td><img src="card-images/MagnetizePlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>0</td>
+        <td>Gain 2(4) Block. Apply 1(2) Weak.</td>
+      </tr>
+      
+      <tr>
+        <td>Meteor Shower</td>
+        <td><img src="card-images/MeteorShower.png"></td>
+        <td><img src="card-images/MeteorShowerPlus.png"></td>
+        <td>Rare</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>(Innate.) Deal 1 damage to ALL enemies for each card in your draw pile. Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Mind Over Matter</td>
+        <td><img src="card-images/MindOverMatter.png"></td>
+        <td><img src="card-images/MindOverMatterPlus.png"></td>
+        <td>Rare</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>Remove all Frail, Weak, and Vulnerable. Gain 5 Block, plus 3(8) Block for each stack removed.</td>
+      </tr>
+      
+      <tr>
+        <td>Nebula</td>
+        <td><img src="card-images/Nebula.png"></td>
+        <td><img src="card-images/NebulaPlus.png"></td>
+        <td>Common</td>
+        <td>Skill</td>
+        <td>1(0)</td>
+        <td>Gain 2 Block for each other card in your hand.</td>
+      </tr>
+      
+      <tr>
+        <td>Nexus</td>
+        <td><img src="card-images/Nexus.png"></td>
+        <td><img src="card-images/NexusPlus.png"></td>
+        <td>Rare</td>
+        <td>Power</td>
+        <td>2(1)</td>
+        <td>Whenever you draw a non-Ethereal Attack or Skill, Recycle an Ethereal copy of it.</td>
+      </tr>
+      
+      <tr>
+        <td>Nova</td>
+        <td><img src="card-images/Nova.png"></td>
+        <td><img src="card-images/NovaPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>3(2)</td>
+        <td>Deal 24 damage to ALL enemies.</td>
+      </tr>
+      
+      <tr>
+        <td>Null Storm</td>
+        <td><img src="card-images/NullStorm.png"></td>
+        <td><img src="card-images/NullStormPlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Recycle a Dazed. Deal 8(11) damage to ALL enemies.</td>
+      </tr>
+      
+      <tr>
+        <td>Overload</td>
+        <td><img src="card-images/Overload.png"></td>
+        <td><img src="card-images/OverloadPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>0</td>
+        <td>Gain 1 Vulnerable. Gain 2(3) Energy, decaying by 1 each time this card is played this combat.</td>
+      </tr>
+      
+      <tr>
+        <td>Periapt of Celerity</td>
+        <td><img src="card-images/PeriaptofCelerity.png"></td>
+        <td><img src="card-images/PeriaptofCelerityPlus.png"></td>
+        <td>Rare</td>
+        <td>Power</td>
+        <td>2(1)</td>
+        <td>Whenever an Ethereal card is Exhausted, gain 1 Dexterity.</td>
+      </tr>
+      
+      <tr>
+        <td>Periapt of Potency</td>
+        <td><img src="card-images/PeriaptofPotency.png"></td>
+        <td><img src="card-images/PeriaptofPotencyPlus.png"></td>
+        <td>Rare</td>
+        <td>Power</td>
+        <td>2(1)</td>
+        <td>Whenever an Ethereal card is Exhausted, gain 1 Strength.</td>
+      </tr>
+      
+      <tr>
+        <td>Phase Coil</td>
+        <td><img src="card-images/PhaseCoil.png"></td>
+        <td><img src="card-images/PhaseCoilPlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>2</td>
+        <td>Deal 9(15) damage. Every time you draw this card, increase its damage by 3 for this combat.</td>
+      </tr>
+      
+      <tr>
+        <td>Plasma Wave</td>
+        <td><img src="card-images/PlasmaWave.png"></td>
+        <td><img src="card-images/PlasmaWavePlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>X</td>
+        <td>Spend all [R]. Deal 3(5) damage to ALL enemies X times. Vulnerable enemies take double damage.</td>
+      </tr>
+      
+      <tr>
+        <td>Power Overwhelming</td>
+        <td><img src="card-images/PowerOverwhelming.png"></td>
+        <td><img src="card-images/PowerOverwhelmingPlus.png"></td>
+        <td>Rare</td>
+        <td>Power</td>
+        <td>1</td>
+        <td>Gain 4(6) Strength. Whenever you play an attack, Recycle a Dazed.</td>
+      </tr>
+      
+      <tr>
+        <td>Prismatic Sphere</td>
+        <td><img src="card-images/PrismaticSphere.png"></td>
+        <td><img src="card-images/PrismaticSpherePlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Ethereal. Deal 7(11) damage. Draw 2 cards.</td>
+      </tr>
+      
+      <tr>
+        <td>Pulse Barrier</td>
+        <td><img src="card-images/PulseBarrier.png"></td>
+        <td><img src="card-images/PulseBarrierPlus.png"></td>
+        <td>Common</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>Gain 11(15) Block. Gain 2 Frail.</td>
+      </tr>
+      
+      <tr>
+        <td>Reflection Ward</td>
+        <td><img src="card-images/ReflectionWard.png"></td>
+        <td><img src="card-images/ReflectionWardPlus.png"></td>
+        <td>Rare</td>
+        <td>Skill</td>
+        <td>2</td>
+        <td>Gain 5 Block and 3 Reflect per 4(3) cards in your draw pile.</td>
+      </tr>
+      
+      <tr>
+        <td>Retrograde</td>
+        <td><img src="card-images/Retrograde.png"></td>
+        <td><img src="card-images/RetrogradePlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>0</td>
+        <td>Deal 4(6) damage. At the end of the turn, Recycle a copy of this card.</td>
+      </tr>
+      
+      <tr>
+        <td>Shimmer</td>
+        <td><img src="card-images/Shimmer.png"></td>
+        <td><img src="card-images/ShimmerPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>Gain 12(16) Block. All cards in hand become Ethereal. Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Singularity</td>
+        <td><img src="card-images/Singularity.png"></td>
+        <td><img src="card-images/SingularityPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>3</td>
+        <td>Ethereal. Gain 12(15) Block. Deal 12(15) damage. Next turn gain [R].</td>
+      </tr>
+      
+      <tr>
+        <td>Siphon Power</td>
+        <td><img src="card-images/SiphonPower.png"></td>
+        <td><img src="card-images/SiphonPowerPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>2</td>
+        <td>Deal 10(14) damage. Apply 1(2) Vulnerable. Gain 1 Strength.</td>
+      </tr>
+      
+      <tr>
+        <td>Siphon Speed</td>
+        <td><img src="card-images/SiphonSpeed.png"></td>
+        <td><img src="card-images/SiphonSpeedPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>2</td>
+        <td>Gain 7(10) Block. Apply 1(2) Weak. Gain 1 Dexterity.</td>
+      </tr>
+      
+      <tr>
+        <td>Starburst</td>
+        <td><img src="card-images/Starburst.png"></td>
+        <td><img src="card-images/StarburstPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>2</td>
+        <td>Deal 8(11) damage twice to one enemy and once to ALL other enemies.</td>
+      </tr>
+      
+      <tr>
+        <td>Strike</td>
+        <td><img src="card-images/Strike.png"></td>
+        <td><img src="card-images/StrikePlus.png"></td>
+        <td>Basic</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Deal 6(9) damage.</td>
+      </tr>
+      
+      <tr>
+        <td>Stroke of Genius</td>
+        <td><img src="card-images/StrokeofGenius.png"></td>
+        <td><img src="card-images/StrokeofGeniusPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>1(0)</td>
+        <td>Choose to add a random Attack, Skill or Power to your hand. It costs 0 this turn. Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Surge</td>
+        <td><img src="card-images/Surge.png"></td>
+        <td><img src="card-images/SurgePlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Deal 7(10) damage. If you are Weak, Frail, or Vulnerable, deal 7(10) damage again.</td>
+      </tr>
+      
+      <tr>
+        <td>Syzygy</td>
+        <td><img src="card-images/Syzygy.png"></td>
+        <td><img src="card-images/SyzygyPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Ethereal. Deal 5(7) damage to a random enemy 3 times. Recycle a Dazed. Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Thought Raze</td>
+        <td><img src="card-images/ThoughtRaze.png"></td>
+        <td><img src="card-images/ThoughtRazePlus.png"></td>
+        <td>Rare</td>
+        <td>Attack</td>
+        <td>2</td>
+        <td>Exhaust all Ethereal cards in your draw pile. Deal 7(10) damage for each.</td>
+      </tr>
+      
+      <tr>
+        <td>Transference</td>
+        <td><img src="card-images/Transference.png"></td>
+        <td><img src="card-images/TransferencePlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>1(0)</td>
+        <td>Transfer all of your Weak and Vulnerable to an enemy. Draw a card.</td>
+      </tr>
+      
+      <tr>
+        <td>Umbra</td>
+        <td><img src="card-images/Umbra.png"></td>
+        <td><img src="card-images/UmbraPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>If you are Frail or Vulnerable, gain 8(12) Block. If you are Weak, deal 8(12) damage to ALL enemies.</td>
+      </tr>
+      
+      <tr>
+        <td>Unstable Orb</td>
+        <td><img src="card-images/UnstableOrb.png"></td>
+        <td><img src="card-images/UnstableOrbPlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Deal 12(17) damage. Gain 2 Weak.</td>
+      </tr>
+      
+      <tr>
+        <td>Vacuum</td>
+        <td><img src="card-images/Vacuum.png"></td>
+        <td><img src="card-images/VacuumPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Remove all of your Weak, Frail, and Vulnerable. Deal 4(6) damage per stack removed.</td>
+      </tr>
+      
+      <tr>
+        <td>Void Ray</td>
+        <td><img src="card-images/VoidRay.png"></td>
+        <td><img src="card-images/VoidRayPlus.png"></td>
+        <td>Common</td>
+        <td>Attack</td>
+        <td>1</td>
+        <td>Recycle a Dazed. Deal 10(14) damage.</td>
+      </tr>
+      
+      <tr>
+        <td>Vortex</td>
+        <td><img src="card-images/Vortex.png"></td>
+        <td><img src="card-images/VortexPlus.png"></td>
+        <td>Uncommon</td>
+        <td>Skill</td>
+        <td>1(0)</td>
+        <td>Draw until your hand is full. Top-Cycle 4 Dazed. Exhaust.</td>
+      </tr>
+      
+      <tr>
+        <td>Wormhole</td>
+        <td><img src="card-images/Wormhole.png"></td>
+        <td><img src="card-images/WormholePlus.png"></td>
+        <td>Uncommon</td>
+        <td>Power</td>
+        <td>3</td>
+        <td>Whenever you draw an Ethereal card, deal 3(5) damage to a random enemy.</td>
+      </tr>
+      
+      <tr>
+        <td>Zenith</td>
+        <td><img src="card-images/Zenith.png"></td>
+        <td><img src="card-images/ZenithPlus.png"></td>
+        <td>Rare</td>
+        <td>Skill</td>
+        <td>1</td>
+        <td>After paying this card's cost, double your remaining [R]. Exhaust. (not Exhaust.)</td>
+      </tr>
+      
+    </table>
+  </body>
+</html>
