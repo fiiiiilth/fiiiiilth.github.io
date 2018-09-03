@@ -1,0 +1,490 @@
+
+{| class="article-table sortable"
+|+Beaked_yellow Cards
+|-
+!Name
+!Picture
+!Rarity
+!Type
+!Energy
+!Description
+|-
+|[[Awakened Form]]
+|[[File:AwakenedForm.png|thumb|289x289px]]
+|Rare
+|[[Power]]
+|5
+|Costs 1 less [E] for each Boss killed.
+Cards cost 1 less [E]. 
+(Can reduce costs below 0.)
+|-
+|[[Barbed Wire]]
+|[[File:BarbedWire.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|2(1)
+|Gain [[Thorns]] equal to your [[Strength]].
+Lose all [[Strength]].
+|-
+|[[Blood For The Gods]]
+|[[File:BloodForTheGods.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|2
+|Take 10(15) damage.
+Next turn, heal twice that much HP.
+|-
+|[[Blood Ritual]]
+|[[File:BloodRitual.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|0
+|Lose 12 HP.
+Gain 1(2) [[Ritual]].
+|-
+|[[Bounce Back]]
+|[[File:BounceBack.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|2(1)
+|Remove all of your Debuffs.
+[[Exhaust]].
+|-
+|[[Brace]]
+|[[File:Brace.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1
+|[[Retain]]. Gain 0 [[Block]].
+[[Block]] increases by 1(2) for each Skill you play while this is in your hand. [[Exhaust]].
+|-
+|[[Brace for Impact]]
+|[[File:BraceforImpact.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|0
+|Gain 1(2) Plated Armor.
+|-
+|[[Brainwash]]
+|[[File:Brainwash.png|thumb|289x289px]]
+|Rare
+|[[Skill]]
+|3(2)
+|[[Exhaust]] all [[Depleted]] cards in your hand.
+[[Retain]] your hand this turn.
+[[Exhaust]].
+|-
+|[[CAW!]]
+|[[File:CAW!.png|thumb|289x289px]]
+|Rare
+|[[Attack]]
+|X
+|Deal 5 damage to ALL enemies X (X+1) times. Apply X (X+1) [[Weak]] and [[Vulnerable]] to ALL enemies.
+[[Wither]] 1.
+|-
+|[[Ceremony]]
+|[[File:Ceremony.png|thumb|289x289px]]
+|Basic
+|[[Power]]
+|2
+|[[Ethereal]].
+(not Ethereal.)
+Gain 1 [[Ritual]].
+|-
+|[[Cursing Blood]]
+|[[File:CursingBlood.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1
+|Enemy loses !beaked:I! [[Strength]]. [[Wither]] 1.
+Lose 3 HP.
+|-
+|[[Dark Pact]]
+|[[File:DarkPact.png|thumb|289x289px]]
+|Rare
+|[[Skill]]
+|1
+|Gain 4(6) Plated Armor.
+Shuffle a Regret into your draw pile.
+|-
+|[[Dark Tribute]]
+|[[File:DarkTribute.png|thumb|289x289px]]
+|Rare
+|[[Skill]]
+|3
+|Heal ALL HP.
+Gain !beaked:I! [[Poison]].
+[[Wither]] -3(-2).
+|-
+|[[Daydream]]
+|[[File:Daydream.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1
+|Shuffle 3(4) [[Inspiration]] into your draw pile.
+|-
+|[[Defend]]
+|[[File:Defend.png|thumb|289x289px]]
+|Basic
+|[[Skill]]
+|1
+|Gain 5(8) [[Block]].
+|-
+|[[Desperate Swing]]
+|[[File:DesperateSwing.png|thumb|289x289px]]
+|Uncommon
+|[[Attack]]
+|1
+|Deal 9 damage, plus 1 for every 5(4) points of HP missing.
+|-
+|[[Devastation]]
+|[[File:Devastation.png|thumb|289x289px]]
+|Uncommon
+|[[Power]]
+|3
+|When you draw a [[Depleted]] card, draw 1(2) more card(s).
+|-
+|[[Dig Deep]]
+|[[File:DigDeep.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1
+|Heal 3(5) HP for each [[Ritual]] you have.
+[[Exhaust]].
+|-
+|[[Dig Deeper]]
+|[[File:DigDeeper.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|2
+|Heal 1 HP for each [[Strength]] you have.
+Lose all [[Strength]].
+[[Exhaust]]. (not
+Exhaust.)
+|-
+|[[Evade]]
+|[[File:Evade.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1(0)
+|If the enemy intends to attack, gain [E] [E].
+|-
+|[[Fake Out]]
+|[[File:FakeOut.png|thumb|289x289px]]
+|Rare
+|[[Attack]]
+|1(0)
+|Deal 3 damage to ALL enemies.
+Swap your draw pile and discard pile.
+|-
+|[[Flinch]]
+|[[File:Flinch.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1
+|Gain 12 [[Block]].
+[[Wither]] 2(1).
+|-
+|[[Foresight]]
+|[[File:Foresight.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1
+|Gain 5(8) [[Block]].
+Next turn, gain [E] ([E]).
+|-
+|[[Full House]]
+|[[File:FullHouse.png|thumb|289x289px]]
+|Rare
+|[[Skill]]
+|0
+|Draw !beaked:I! cards.
+[[Wither]] 3(2).
+|-
+|[[Hexing]]
+|[[File:Hexing.png|thumb|289x289px]]
+|Uncommon
+|[[Power]]
+|2(1)
+|At the start of your turn, apply 2 [[Weak]] and 1 [[Vulnerable]] to all enemies that don't intend to attack.
+|-
+|[[Huntress Essence]]
+|[[File:HuntressEssence.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|2
+|Heal 1(3) HP and draw 1(3) card(s) for each card in your [[Exhaust]] pile.
+[[Exhaust]]
+|-
+|[[Huntress Spirit]]
+|[[File:HuntressSpirit.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|1
+|Your next Skill this turn is played twice.
+Gain [[Dexterity]] equal to (twice) its cost.
+|-
+|[[Insight]]
+|[[File:Insight.png|thumb|289x289px]]
+|Common
+|[[Power]]
+|1
+|([[Innate]].)
+ At the start of your turn, shuffle an [[Inspiration]] into your draw pile.
+|-
+|[[Inspiration]]
+|[[File:Inspiration.png|thumb|289x289px]]
+|Special
+|[[Skill]]
+|
+|
+|-
+|[[Lift Off]]
+|[[File:LiftOff.png|thumb|289x289px]]
+|Rare
+|[[Power]]
+|3(2)
+|Take 50% less damage from attacks. If you are attacked 3 times in one turn, lose this power and skip your next turn.
+|-
+|[[Machine Essence]]
+|[[File:MachineEssence.png|thumb|289x289px]]
+|Rare
+|[[Power]]
+|3
+|Whenever you receive healing, heal an additional 1(2) HP.
+|-
+|[[Machine Spirit]]
+|[[File:MachineSpirit.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|1
+|Your next Power this turn is played twice.
+Heal for 3 (5) times its cost.
+|-
+|[[Molting]]
+|[[File:Molting.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|1
+|[[Exhaust]] a card.
+Gain 7(10) [[Block]], or !beaked:B+M! [[Block]] if it was a [[Depleted]] card.
+|-
+|[[Negation]]
+|[[File:Negation.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|1
+|Ignore the next (1(2)) [[Wither]] effect(s) this combat.
+[[Exhaust]].
+|-
+|[[Overexert]]
+|[[File:Overexert.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|0
+|Double your [[Energy]].
+For each [[Energy]] gained, lose 3(2) HP.
+|-
+|[[Overpower]]
+|[[File:Overpower.png|thumb|289x289px]]
+|Uncommon
+|[[Attack]]
+|1
+|Deal 9 damage, plus 1 for every 5(4) points of health you currently have.
+|-
+|[[Pecker]]
+|[[File:Pecker.png|thumb|289x289px]]
+|Uncommon
+|[[Attack]]
+|2(1)
+|Deal 1 damage 5(7) times.
+[[Wither]] 1.
+|-
+|[[Poke]]
+|[[File:Poke.png|thumb|289x289px]]
+|Common
+|[[Attack]]
+|1
+|Draw 1(2) card.
+If it's an Attack, deal 5 damage.
+|-
+|[[Prayer of Safety]]
+|[[File:PrayerofSafety.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|1
+|Gain 1 [[Intangible]].
+Gain 5 [[Block]].
+Lose 4(3) [[Dexterity]].
+|-
+|[[Psalm]]
+|[[File:Psalm.png|thumb|289x289px]]
+|Special
+|[[Attack]]
+|0
+|Deal 3(5) damage to ALL enemies.
+[[Wither]] 2.
+|-
+|[[Recite]]
+|[[File:Recite.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|2
+|Add 2(3) [[Psalm]] cards to your hand.
+|-
+|[[Redirect]]
+|[[File:Redirect.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1(0)
+|Gain [[Block]] equal to 5 times your [[Strength]], then lose all [[Strength]].
+[[Wither]] 1.
+|-
+|[[Replenish]]
+|[[File:Replenish.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|3(2)
+|Replenish 1 use of a Withered card in your hand.
+|-
+|[[Resilience]]
+|[[File:Resilience.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1(0)
+|Lose 3 [[Strength]].
+Gain 1 [[Artifact]].
+|-
+|[[Respite]]
+|[[File:Respite.png|thumb|289x289px]]
+|Special
+|[[Status]]
+|
+|
+|-
+|[[Roost]]
+|[[File:Roost.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|0
+|Gain 12(16) [[block]].
+Increase this cards cost by 1 for the rest of combat.
+|-
+|[[Ruin Sticks]]
+|[[File:RuinSticks.png|thumb|289x289px]]
+|Uncommon
+|[[Attack]]
+|2
+|Deal 22(26) damage.
+Add a Regret to your hand.
+|-
+|[[Sacrifice]]
+|[[File:Sacrifice.png|thumb|289x289px]]
+|Rare
+|[[Attack]]
+|2
+|Deal 18(27) damage, then heal the enemy for 18(27) HP. Gain !beaked:I! [[Strength]]. When this kills an enemy, permanently increase the [[Strength]] by 1. [[Exhaust]].
+|-
+|[[Sacrificial Attack]]
+|[[File:SacrificialAttack.png|thumb|289x289px]]
+|Uncommon
+|[[Attack]]
+|2
+|Deal 0 damage to ALL enemies. [[Strength]] affects Sacrificial Attack 2(3) times.
+Lose all [[Strength]].
+|-
+|[[Sacrificial Scars]]
+|[[File:SacrificialScars.png|thumb|289x289px]]
+|Rare
+|[[Skill]]
+|0
+|Lose 6 HP.
+Gain 2(3) Max HP.
+You cannot heal for 3 turns.
+[[Exhaust]].
+|-
+|[[Sow the Seeds]]
+|[[File:SowtheSeeds.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|2
+|Shuffle 2(4) [[Respite]] into your draw pile.
+|-
+|[[Stick]]
+|[[File:Stick.png|thumb|289x289px]]
+|Special
+|[[Skill]]
+|0
+|ALL Stick-Smack cards deal 1(2) additional damage this combat. Return the last played Stick-Smack card to your hand.
+|-
+|[[Stick Smack]]
+|[[File:StickSmack.png|thumb|289x289px]]
+|Uncommon
+|[[Attack]]
+|1
+|Deal 6 damage.
+Shuffle a (an [[Upgraded]]) [[Stick]] into your draw pile.
+|-
+|[[Strike]]
+|[[File:Strike.png|thumb|289x289px]]
+|Basic
+|[[Attack]]
+|1
+|Deal 6(9) damage.
+|-
+|[[Struggle]]
+|[[File:Struggle.png|thumb|289x289px]]
+|Uncommon
+|[[Attack]]
+|0
+|Can only be played if Struggle is the only playable card in hand.
+Deal 5 damage.
+Take 1 damage.
+Deals 3(5) more damage for each card in hand.
+|-
+|[[Tradeoff]]
+|[[File:Tradeoff.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1
+|[[Exhaust]] !beaked:I! random card in your hand.
+[[Wither]] -1.
+Draw 2(3) cards.
+|-
+|[[Tucking Feathers]]
+|[[File:TuckingFeathers.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|1
+|Draw 2(3) cards. Gain [[Block]] equal to their total cost.
+|-
+|[[Tweet]]
+|[[File:Tweet.png|thumb|289x289px]]
+|Common
+|[[Skill]]
+|0
+|Apply 1(2) [[Vulnerable]].
+|-
+|[[Warrior Essence]]
+|[[File:WarriorEssence.png|thumb|289x289px]]
+|Common
+|[[Attack]]
+|X
+|Deal 2 damage to a random enemy X (X+1) times. Heal for 25% of unblocked damage dealt.
+[[Exhaust]].
+|-
+|[[Warrior Spirit]]
+|[[File:WarriorSpirit.png|thumb|289x289px]]
+|Uncommon
+|[[Skill]]
+|1
+|Your next Attack this turn is played twice.
+Gain [[Strength]] equal to (twice) its cost.
+|-
+|[[Wild Instinct]]
+|[[File:WildInstinct.png|thumb|289x289px]]
+|Rare
+|[[Attack]]
+|
+|If you have less than 50% HP when drawn, deal 20(25) damage to ALL enemies.
+|-
